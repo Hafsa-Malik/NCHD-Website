@@ -634,3 +634,92 @@ Vertical scrolling .programs-vertical-scroll {
     position: relative;
 }
 
+
+.contribution-outer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contribution-inner {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 1.5vw;
+    background-image: url('images/donation.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 75.391vw;
+    height: 24.844vw;
+}
+
+
+.contribution-inner p {
+    color: var(--white);
+    font-size: 3.750vw;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-subscribe {
+    text-align: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border: none;
+    border-radius: 0.521vw;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 1.1vw;
+    background: #CF000C;
+    padding: 0.8vw 1.302vw;
+    text-decoration: none;
+    width: 200px;
+
+}
+
+#btn-subscribe:hover {
+    background: #e62b2b;
+    background-image: -webkit-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -moz-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -ms-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -o-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: linear-gradient(to bottom, #e62b2b, #e01d1d);
+    cursor: pointer;
+    text-decoration: none;
+}
+#btn-donate {
+    text-align: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border: none;
+    border-radius: 0.521vw;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.1vw;
+    background: white;
+    padding: 0.8vw 1.302vw;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 5vw;
+}
+
+#btn-donate:hover {
+    background: #e62b2b;
+    background-image: -webkit-linear-gradient(top, #eeeeee, #ffffff);
+    background-image: -moz-linear-gradient(top, #eeeeee, #ffffff);
+    background-image: -ms-linear-gradient(top, #eeeeee, #ffffff);
+    background-image: -o-linear-gradient(top, #eeeeee, #ffffff);
+    background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
+    cursor: pointer;
+    text-decoration: none;
+}
