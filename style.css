@@ -542,7 +542,7 @@ nav .logo {
 .programs-list-item {
     margin-left: 0.3255vw;
     width: 17.2515vw;
-    height: 13.02vw;
+    height: 15.02vw;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -609,7 +609,6 @@ Vertical scrolling .programs-vertical-scroll {
     background-size: cover;
     width: 17.2515vw;
     height: 8.463vw;
-    margin-top: 2vw;
 }
 
 .program-btn {
@@ -718,3 +717,525 @@ Vertical scrolling .programs-vertical-scroll {
     animation: zoom-in-zoom-out 900ms ease infinite;
 }
 
+/*Section 3 CSS */
+.updates-section a,
+.footer a,
+.imapact-section a {
+    text-decoration: none;
+    color: black;
+}
+
+/* OUR IMPACT SECTION */
+
+.impact-section {
+    margin: 5.208vw 6.250vw;
+}
+
+.impact-tag {
+    display: flex;
+    align-items: center;
+}
+
+#line {
+    background: #CF000C;
+    border: none;
+    height: 0.1vw;
+    margin: 0;
+    width: 4.688vw;
+}
+
+.section-caption {
+    color: #CF000C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.042vw;
+    font-weight: bold;
+    margin-left: 1.302vw;
+}
+
+.impact-heading p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.125vw;
+    font-weight: bold;
+    width: 49.023vw;
+    margin: 0.977vw 0 0 5.9vw;
+
+}
+
+.impact-content {
+    display: flex;
+    margin: 3.255vw 6.120vw 0;
+    justify-content: space-between;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impact-img {
+    height: 21.484vw;
+    width: 21.484vw;
+    border-radius: 4%;
+    margin-bottom: 0.651vw;
+}
+
+.btn {
+    text-align: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border: none;
+    border-radius: 0.521vw;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 0.92vw;
+    background: #CF000C;
+    padding: 0.8vw 1.302vw;
+    text-decoration: none;
+    width: 38%;
+
+}
+
+.btn:hover {
+    background: #e62b2b;
+    background-image: -webkit-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -moz-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -ms-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: -o-linear-gradient(top, #e62b2b, #e01d1d);
+    background-image: linear-gradient(to bottom, #e62b2b, #e01d1d);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* UPDATES SECTION */
+
+.updates-section {
+    padding: 2.5vw 6.250vw 2vw;
+    background-color: #f6f6f6;
+}
+
+.updates-section .section-1 {
+    display: flex;
+    margin-bottom: 1.302vw;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+}
+
+.tag #one {
+    background-color: black;
+    border: none;
+    width: 0.117vw;
+    height: 100%;
+    margin: 0;
+}
+
+.tag-caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.693vw;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+
+.updates-section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#updates-item1 {
+    width: 57.18vw;
+    height: 32.227vw;
+    background-image: url(images/girl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 1.237vw;
+}
+
+.item1-text {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin: 0 3.255vw 0 1.953vw;
+}
+
+.item1-text p {
+    padding-right: 3.255vw;
+    font-size: 1.042vw;
+}
+
+.item1-text h2 {
+    font-size: 2.083vw;
+    margin-bottom: 0;
+}
+
+.news-list {
+    width: 27.944vw;
+    height: 32.227vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-heading {
+    text-align: center;
+    background-color: #CF000C;
+}
+
+.news-list h3 {
+    color: white;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.tag #two {
+    background-color: white;
+    height: 0.9vw;
+    border: none;
+    width: 0.05vw;
+    color: white;
+}
+
+#bottom-tag {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+
+
+/* UPDATES SECTION 3 */
+
+.updates-section-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3-content {
+    display: flex;
+    justify-content: space-between;
+    width: 58.594vw;
+}
+
+#updates-item-2 {
+    margin-right: 1.237vw;
+}
+
+.size {
+    width: 27.995vw;
+    height: 19.531vw;
+    background-color: rgb(10, 196, 10);
+}
+
+.background-1 {
+    background-image: url(images/NCHD-LEAPS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.background-2 {
+    background-image: url(images/learning-center.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.background-3 {
+    background-image: url(images/Madaris.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.click-cell {
+    cursor: pointer;
+    transition: filter 0.2s ease-out;
+    filter: brightness(100%);
+}
+
+.click-cell:hover {
+    transition: filter 0.2s ease-out;
+    filter: brightness(110%);
+}
+
+.updates-section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section4-content {
+    display: flex;
+    justify-content: space-between;
+    width: 58.594vw;
+}
+
+.content {
+    width: 27.995vw;
+    height: 10.5vw;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.updates-content {
+    padding: 1.316vw;
+}
+
+.updates-content .heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.119vw;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.494vw;
+}
+
+.updates-content .text {
+    font-size: 1.053vw;
+}
+
+.section-3 {
+    display: flex;
+}
+
+.tag #three {
+    background-color: red;
+    height: 0.9vw;
+    border: none;
+    width: 0.1vw;
+    color: red;
+}
+
+.tag #four {
+    background-color: orangered;
+    height: 0.9vw;
+    border: none;
+    width: 0.1vw;
+    color: green;
+}
+
+.tag #five {
+    background-color: rgb(2, 226, 255);
+    height: 0.9vw;
+    border: none;
+    width: 0.1vw;
+    color: rgb(2, 226, 255);
+}
+
+.latest-news-tag {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+
+.vertical-menu {
+    width: 27.943vw;
+    height: 28.046vw;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.922vw;
+    color: whitesmoke;
+    display: block;
+    padding: 0.790vw;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(63, 59, 59);
+}
+
+.vertical-scroll::-webkit-scrollbar {
+    width: 1.053vw;
+    height: 1.053vw;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+    background: hsl(0, 0%, 18%);
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb {
+    background: hsl(357deg 100% 41%);
+    border: 0.263vw solid hsl(0, 0%, 18%);
+    border-radius: 100vw;
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb:hover {
+    background: hsl(357deg 100% 45%);
+}
+
+Vertical scrolling .vertical-scroll {
+    display: grid;
+    gap: 0.263vw;
+    grid-auto-flow: column;
+    grid-auto-columns: 75%;
+    padding: 0.263vw;
+    overflow-x: scroll;
+    background: #d3fdbe;
+    border-radius: 1.053vw;
+    position: relative;
+}
+
+.vertical-scroll>div {
+    background: hsl(0 0% 90%);
+    border-radius: 1.053vw;
+    border: 0.5em solid hsl(0 0% 60%);
+    padding: 1.053vw;
+}
+
+.news-list-items {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-item {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 1.251vw;
+    width: 2.962vw;
+    height: 2.962vw;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.box-item span {
+    padding-top: 0.395vw;
+    position: relative;
+    top: 0.592vw;
+    color: #CF000C;
+    font-weight: 500;
+    font-size: 1.316vw;
+}
+
+.list-item {
+    margin-left: 0.790vw;
+    padding-top: 0.263vw;
+}
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 26.330vw;
+    background-color: black;
+}
+
+.footer-content {
+    display: flex;
+    padding: 6.582vw 13.165vw 0;
+    justify-content: space-between;
+}
+
+.footer-item-list {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+
+.icons a {
+    padding: 0;
+}
+
+.footer-item-list a {
+    color: white;
+    padding-bottom: 1.646vw;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.790vw;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 0.658vw;
+}
+
+#feedback {
+    height: 13.165vw;
+    width: 26.330vw;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+#feedback-heading {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.501vw;
+    padding-bottom: 0.658vw;
+}
+
+form .text {
+    font-size: 1.119vw;
+    margin-bottom: 0.132vw;
+    color: #656565;
+}
+
+form .msg {
+    margin-top: 0.658vw;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    font-size: 1.053vw;
+    background: #151515;
+    padding: 0.658vw 0.658vw;
+    border: 0.066vw solid #222222;
+    font-family: 'Roboto';
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: #CF000C;
+}
+
+form input {
+    height: 2.304vw;
+}
+
+form .button {
+    margin-top: 0.658vw;
+    width: 27.778vw;
+}
+
+form .button button {
+    height: 2.633vw;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--red);
+    font-size: 1.119vw;
+    font-weight: 300;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+form .button button:hover {
+    background: var(--white);
+    color: black;
+}
