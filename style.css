@@ -15,12 +15,12 @@ html {
     padding: 0vw;
 }
 
-.popup{
+.popup {
     background-color: var(--white);
     height: 28vw;
     width: 24vw;
     position: fixed;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     border-radius: 1vw;
@@ -42,7 +42,7 @@ html {
 }
 
 
-.popup-top button{
+.popup-top button {
     background-color: t;
     background: var(--white);
     border: 0.2vw solid var(--red);
@@ -61,7 +61,7 @@ html {
     width: 24vw;
 }
 
-.popup h2{
+.popup h2 {
     margin: 0;
     padding: 1vw 0 1vw 0;
     font-family: 'Playfair Display';
@@ -77,7 +77,7 @@ html {
     color: var(--white);
 }
 
-.popup-bottom p{
+.popup-bottom p {
     font-size: 0.9vw;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -86,7 +86,7 @@ html {
     color: var(--darkgrey);
 }
 
-.popup-bottom button{
+.popup-bottom button {
     display: block;
     background-color: var(--red);
     color: var(--white);
@@ -99,7 +99,7 @@ html {
     margin: auto;
     margin-top: 0.5vw;
     animation: zoom-in-zoom-out 1s ease infinite;
-    
+
 }
 
 .popup-bottom button:hover {
@@ -181,7 +181,7 @@ nav .logo {
 
 .carousel {
     position: relative;
-    height:  100%;
+    height: 100%;
 }
 
 .bgimg {
@@ -230,6 +230,7 @@ nav .logo {
 }
 
 .popup-top button:hover,
+#btn-donate:hover,
 .caption button:hover {
     cursor: pointer;
     color: var(--white);
@@ -283,17 +284,19 @@ nav .logo {
 
 @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1, 1);
+        transform: scale(1, 1);
     }
-    50% {
-      transform: scale(1.03, 1.03);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
-  }
 
-  /* Section 2 CSS*/
+    50% {
+        transform: scale(1.03, 1.03);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* Section 2 CSS*/
 .about-us {
     padding: 1vw;
     margin: 5.208vw 6.250vw 1vw 6.250vw;
@@ -345,7 +348,7 @@ nav .logo {
     border: none;
     background: none;
     font-size: 1.3vw;
-    padding:0.2vw;
+    padding: 0.2vw;
     transition: 1000ms background, 1000ms color, 1000ms border-radius;
 }
 
@@ -406,7 +409,9 @@ nav .logo {
     box-shadow: none;
 }
 
-.numb1, .numb2, .numb3 {
+.numb1,
+.numb2,
+.numb3 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -533,6 +538,7 @@ nav .logo {
     text-align: left;
     padding: 0.651vw 0.3255vw 0;
 }
+
 .programs-list-item {
     margin-left: 0.3255vw;
     width: 17.2515vw;
@@ -624,7 +630,7 @@ Vertical scrolling .programs-vertical-scroll {
     background: darkred;
 }
 
-.program-btn span{
+.program-btn span {
     font: normal 500 11px/1 "Roboto", sans-serif;
     position: relative;
     bottom: 0.5859vw;
@@ -634,9 +640,9 @@ Vertical scrolling .programs-vertical-scroll {
     position: relative;
 }
 
-
+/*Section 4 CSS */
 .contribution-outer {
-    background-color: white;
+    background-color: var(--white);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -675,33 +681,31 @@ Vertical scrolling .programs-vertical-scroll {
     text-align: center;
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border: none;
+    border: 0.2vw solid var(--red); 
     border-radius: 0.521vw;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: var(--white);
     font-size: 1.1vw;
-    background: #CF000C;
+    background: var(--red);
     padding: 0.8vw 1.302vw;
     text-decoration: none;
-    width: 200px;
+    width: 13vw;
+    animation: zoom-in-zoom-out 900ms ease infinite;
 
 }
 
 #btn-subscribe:hover {
-    background: #e62b2b;
-    background-image: -webkit-linear-gradient(top, #e62b2b, #e01d1d);
-    background-image: -moz-linear-gradient(top, #e62b2b, #e01d1d);
-    background-image: -ms-linear-gradient(top, #e62b2b, #e01d1d);
-    background-image: -o-linear-gradient(top, #e62b2b, #e01d1d);
-    background-image: linear-gradient(to bottom, #e62b2b, #e01d1d);
+    background-color: var(--white);
+    color: var(--red);
     cursor: pointer;
     text-decoration: none;
 }
+
 #btn-donate {
+    border: 0.2vw solid var(--white); 
     text-align: center;
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border: none;
     border-radius: 0.521vw;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -709,17 +713,8 @@ Vertical scrolling .programs-vertical-scroll {
     background: white;
     padding: 0.8vw 1.302vw;
     text-decoration: none;
-    width: 100px;
+    width: 5vw;
     margin-left: 5vw;
+    animation: zoom-in-zoom-out 900ms ease infinite;
 }
 
-#btn-donate:hover {
-    background: #e62b2b;
-    background-image: -webkit-linear-gradient(top, #eeeeee, #ffffff);
-    background-image: -moz-linear-gradient(top, #eeeeee, #ffffff);
-    background-image: -ms-linear-gradient(top, #eeeeee, #ffffff);
-    background-image: -o-linear-gradient(top, #eeeeee, #ffffff);
-    background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
-    cursor: pointer;
-    text-decoration: none;
-}
