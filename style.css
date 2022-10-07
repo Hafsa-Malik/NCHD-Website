@@ -680,7 +680,7 @@ Vertical scrolling .programs-vertical-scroll {
     text-align: center;
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border: 0.2vw solid var(--red); 
+    border: 0.2vw solid var(--red);
     border-radius: 0.521vw;
     font-family: 'Roboto', sans-serif;
     color: var(--white);
@@ -701,7 +701,7 @@ Vertical scrolling .programs-vertical-scroll {
 }
 
 #btn-donate {
-    border: 0.2vw solid var(--white); 
+    border: 0.2vw solid var(--white);
     text-align: center;
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
@@ -718,6 +718,7 @@ Vertical scrolling .programs-vertical-scroll {
 }
 
 /*Section 3 CSS */
+.video-container a,
 .updates-section a,
 .footer a,
 .imapact-section a {
@@ -1124,6 +1125,63 @@ Vertical scrolling .vertical-scroll {
     padding-top: 0.263vw;
 }
 
+/* Video Section */
+.video-container {
+    background-image: url('images/videobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(54, 28, 28, 0.7);
+    background-blend-mode: soft-light;
+    height: 41.172vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.video-content video {
+    width: 40vw;
+    padding-top: 8.2vw;
+    padding-right: 8vw;
+}
+
+.video-description {
+    padding-top: 8vw;
+    padding-left: 6vw;
+    padding-right: 5vw;
+}
+
+
+.video-description h2 {
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 2.2vw;
+    margin-left: 15px;
+}
+
+#unicef-heading {
+    border-bottom: 3px solid white;
+}
+
+.video-description p {
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 1.23vw;
+    margin-left: 15px;
+    position: relative;
+}
+
+
+#label {
+    color: white;
+    padding-top: 0vw;
+    border-left: 2px solid red;
+    padding-left: 16px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.693vw;
+    font-weight: 500;
+    margin-left: 1vw;
+}
 
 /* FOOTER */
 
