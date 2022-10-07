@@ -1,0 +1,295 @@
+:root {
+    --red: #CF000C;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #d4d3d3;
+    --darkgrey: #666666;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.popup{
+    background-color: var(--white);
+    height: 28vw;
+    width: 24vw;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.9vw;
+    display: none;
+    text-align: center;
+    z-index: 100;
+}
+
+.popup-top {
+    display: block;
+    height: 14vw;
+    width: 24vw;
+    background-size: 14vw 24vw;
+    border-top-left-radius: 0.9vw;
+    border-top-right-radius: 0.9vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.popup-top button{
+    background-color: t;
+    background: var(--white);
+    border: 0.2vw solid var(--red);
+    border-radius: 100%;
+    color: var(--red);
+    font-size: 2vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    position: relative;
+    margin: 0.5vw 0.5vw 0 21vw;
+}
+
+.popup-bottom {
+    height: 14vw;
+    width: 24vw;
+}
+
+.popup h2{
+    margin: 0;
+    padding: 1vw 0 1vw 0;
+    font-family: 'Playfair Display';
+    font-size: 1.6vw;
+}
+
+.popup-bottom input {
+    background: var(--grey);
+    padding: 0.7vw 4vw 0.7vw 0.5vw;
+    font-size: 1vw;
+    border-radius: 0.3vw;
+    border: none;
+    color: var(--white);
+}
+
+.popup-bottom p{
+    font-size: 0.9vw;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: 0.7vw 4vw 0.7vw 4vw;
+    color: var(--darkgrey);
+}
+
+.popup-bottom button{
+    display: block;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    padding: 0.7vw 2vw 0.7vw 2vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1vw;
+    margin: auto;
+    margin-top: 0.5vw;
+    animation: zoom-in-zoom-out 1s ease infinite;
+    
+}
+
+.popup-bottom button:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+nav {
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    z-index: 50;
+}
+
+nav a {
+    float: left;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding: 0.5vw;
+}
+
+nav .logo {
+    width: 12vw;
+    height: 3.5vw;
+    padding: 0.3vw 0 0.3vw 1.5vw;
+    margin:0;
+}
+
+.menu a:hover {
+    color: var(--red);
+}
+
+.menu a.active {
+    color: var(--red);
+}
+
+.menu a {
+    transition: color 0.5s ease;
+}
+
+.menu {
+    float: right;
+    padding: 1vw;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 1vw;
+}
+
+#searchBarInput {
+    height: 2.5vw;
+    background: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 1.625vw;
+    padding: 0 3vw 0 1vw;
+    font-size: 1vw;
+}
+
+#searchBarSubmit {
+    width: 3vw;
+    height: 2.5vw;
+    margin-left: -3.1vw;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.carousel {
+    position: relative;
+    height:  100%;
+}
+
+.bgimg {
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 9;
+}
+
+.caption h2 {
+    color: var(--white);
+    margin-bottom: 2vw;
+    font-size: 2.8vw;
+    font-family: 'Playfair Display';
+}
+
+.caption p {
+    margin-top: 2vw;
+    color: var(--white);
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caption button {
+    background-color: var(--white);
+    border: 0.2vw solid var(--red);
+    color: var(--red);
+    padding: 0.7vw 2.8vw;
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1.1vw;
+    margin-top: 3vw;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.popup-top button:hover,
+.caption button:hover {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.dot {
+    cursor: pointer;
+    height: 0.65vw;
+    width: 0.65vw;
+    margin: 0 0.05vw;
+    background-color: var(--white);
+    border-radius: 0.3vw;
+    display: inline-block;
+    transition: background-color 0.6s ease, height 0.6s;
+}
+
+.image-control {
+    position: absolute;
+    left: 2.8vw;
+    top: 45%;
+    width: 1vw;
+    text-align: center;
+}
+
+.dot:hover {
+    background-color: var(--red);
+}
+
+.dot.active {
+    background-color: var(--red);
+    height: 4vw;
+}
+
+/* animations */
+.fade {
+    animation-name: fade;
+    animation-duration: 4s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.03, 1.03);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
