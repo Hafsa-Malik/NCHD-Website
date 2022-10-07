@@ -5,7 +5,7 @@ showImage();
 function showImage() {
     var i;
     var images = document.getElementsByClassName('bgimg');
-    var dots = document.getElementsByClassName('dot');
+    var dots = document.getElementsByClassName('dots');
     for (var i = 0; i < images.length; i++) {
         images[i].style.display = 'none';
     }

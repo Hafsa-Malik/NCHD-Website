@@ -236,7 +236,7 @@ nav .logo {
     background-color: var(--red);
 }
 
-.dot {
+.dots {
     cursor: pointer;
     height: 0.65vw;
     width: 0.65vw;
@@ -255,11 +255,11 @@ nav .logo {
     text-align: center;
 }
 
-.dot:hover {
+.dots:hover {
     background-color: var(--red);
 }
 
-.dot.active {
+.dots.active {
     background-color: var(--red);
     height: 4vw;
 }
@@ -341,7 +341,7 @@ nav .logo {
 }
 
 .check {
-    color: #CF000C;
+    color: var(--red);
     border: none;
     background: none;
     font-size: 1.3vw;
@@ -350,8 +350,8 @@ nav .logo {
 }
 
 .check:hover {
-    color: white;
-    background: #CF000C;
+    color: var(--white);
+    background: var(--red);
     border-radius: 2vw;
 }
 
@@ -396,7 +396,7 @@ nav .logo {
     height: 6.7704vw;
     width: 6.7704vw;
     margin: -3.4vw 0 0 -3.4vw;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 100%;
     box-shadow: 0 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.2);
 }
@@ -415,7 +415,7 @@ nav .logo {
     text-align: center;
     font-size: 2vw;
     font-weight: bold;
-    color: black;
+    color: var(--black);
 }
 
 .stats .bar {
@@ -433,11 +433,11 @@ nav .logo {
     width: 100%;
     border-radius: 100%;
     clip: rect(0px, 4.2315vw, 8.463vw, 0px);
+    background: var(--red);
 }
 
-.circle .bar .progress,
 .dot span {
-    background: #CF000C;
+    background: var(--red);
 }
 
 .circle .left .progress {
