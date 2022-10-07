@@ -630,7 +630,7 @@ Vertical scrolling .programs-vertical-scroll {
 }
 
 .program-btn span {
-    font: normal 500 11px/1 "Roboto", sans-serif;
+    font: normal 500 0.724vw/1 "Roboto", sans-serif;
     position: relative;
     bottom: 0.5859vw;
 }
