@@ -42,6 +42,9 @@ The objective of this project is to create a new website for NCHD using HTML5 an
 ## Group Members
 
 ■ Muhammad Mustafa (331945)
+
 ■ Syeda Fatima Shahid (337346)
+
 ■ Syed Sheraz Hussain (335166)
+
 ■ Hafsa Malik (341303)
